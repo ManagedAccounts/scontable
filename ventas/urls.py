@@ -2,7 +2,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^comprobante/', 'ventas.views.comprobante'),
+    url(r'^comprobante/', 'ventas.views.Comprobante'),
     url(r'^comprar/', 'ventas.views.comprar'),
     url(r'^comprobante_edit/','ventas.views.comprobante_edit'),
     url(r'^clientes/', 'ventas.views.clientes'),

@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 €}q(Uproveedores.urls]qUurlpatternsqaUproveedores.views]q(UProveedorCreateqUProveedorListqUProveedorViewqeUscontable.urls]qUurlpatternsq	aUventas.forms]q
 (UClienteFormqUProductoFormqUCategoriaFormqeUscontable.settings]q(U	TEMPLATESqUUSE_L10NqULANGUAGE_CODEqUUSE_TZqUUSE_I18NqU	DATABASESqU	TIME_ZONEqU
 STATIC_URLqU
 MEDIA_ROOTqUROOT_URLCONFqU	MEDIA_URLqUWSGI_APPLICATIONqUMIDDLEWARE_CLASSESqUDEBUGqUALLOWED_HOSTSqU
 SECRET_KEYqUBASE_DIRqUSTATICFILES_DIRSq UINSTALLED_APPSq!eu.
+=======
+<<<<<<< HEAD
+€}q(Uventas.urls]qUurlpatternsqaUventas.forms]q(UClienteFormqUComprobanteFormqUDetalleFormqeUscontable.urls]qUurlpatternsq	aUventas.views]q
+(Ucliente_editqUcomprarqUComprobanteqUcomprobante_borrarqUcomprobante_editqUcliente_addqUcliente_borrarqUclientesqeu.
+=======
+€}q(Uproveedores.urls]qUurlpatternsqaUproveedores.views]q(UProveedorCreateqUProveedorListqUProveedorViewqeUscontable.urls]qUurlpatternsq	au.
+>>>>>>> fe6c700de8cf450ed2ee897b49920458e01d1994
+>>>>>>> fe03928482c4e52e1d5e6bd71d0ee9253f8b703d

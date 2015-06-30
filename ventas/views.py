@@ -4,6 +4,7 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import get_object_or_404, render_to_response, redirect
 from django.http import HttpResponse, HttpResponseRedirect
 from django.template import RequestContext
+<<<<<<< HEAD
 from django.utils import timezone
 from django.views.generic import TemplateView
 from django.core import serializers
@@ -113,6 +114,9 @@ def consultarFactura(request):
     if request.method == 'POST':
         serie = request.POST.get('serie')
         numero = request.POST.get('num')
+=======
+from .forms import ComprobanteForm, ClienteForm, DetalleForm
+>>>>>>> fe03928482c4e52e1d5e6bd71d0ee9253f8b703d
 
         factura = Factura.objects.get(serie=serie, numero=numero)
         detalles = DetalleFactura.objects.filter(factura=factura)
