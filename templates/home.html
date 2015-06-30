@@ -34,6 +34,7 @@
                       
                     </ul>
                 </li>
+                <li><a href="admin/">Admin</a></li>
                 <li><a href="/admin/">Admin</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Help</a></li>
@@ -58,7 +59,7 @@
     <section>
         <article class="cuerpo">
             <div class="sub_menu">
-                <h2><a href="#">Comprar</a></h2>
+                <h2><a href="{% url 'compras:compras_c'%}">Comprar</a></h2>
                 <h2><a href="#">Vender</a></h2>
                 <details>
                     <summary><b>Registros</b></summary>
@@ -66,6 +67,9 @@
                     <a href="#"><i>Ventas</i></a><br>   
                     <a href="#"><i>Libro Diario</i></a>
                 </details>
+                <h2><a href="{% url 'clientes:clientes_c'%}">R. Clientes</a></h2>
+                <h2><a href="{% url 'proveedores:proveedor_c'%}">R. Proveedor</a></h2>
+                <h2><a href="{% url 'productos:productos_c'%}">R. Articulos</a></h2>
                 <h2><a href="{% url 'clientes:clientes_l' %}">R. Clientes</a></h2>
                 <h2><a href="#">R. Proveedor</a></h2>
                 <h2><a href="#">R. Articulos</a></h2>
