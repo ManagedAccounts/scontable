@@ -11,7 +11,7 @@
                 <article>
                     <div class="">
                         <a href="#" class="indicador"><i>Proveedor: </i></a>
-                        <input type="text" class="provee">
+                        <input  name = "buscar" type="text" class="provee">
                     </div>
                 </article>
                 <article>
@@ -60,4 +60,9 @@
                </table>
            </aside>
        </div>
+
+
+       <form action="/proveedores/search/" class="pure-form" style="margin-left:left; position:relative; top: 10px" method="get">
+                  <input type="text" name="buscar" min="1" max="11" class="pure-input-rounded">
+                  <button type="submit" class="btn btn-success" value="Search">Search</button>
 {% endblock %}
