@@ -2,7 +2,7 @@ from django.shortcuts import render, render_to_response, get_object_or_404
 from .models import Comprobante, Cliente, Detalle
 from django.http import HttpResponse, HttpResponseRedirect
 from django.template import RequestContext
-from eventos.forms import ComprobanteForm, ClienteForm, DetalleForm
+from .forms import ComprobanteForm, ClienteForm, DetalleForm
 
 
 def Comprobante(request):
