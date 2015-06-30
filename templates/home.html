@@ -72,6 +72,8 @@
                 <h2><a href="{% url 'productos:productos_c'%}">R. Articulos</a></h2>
                 <h2><a href="{% url 'clientes:clientes_l' %}">R. Clientes</a></h2>
             </div>
+            {% block comprar %}
+            {% endblock %}
             {% block registro_compras %}
             {% endblock %}
             {% block buscar_clientes %}
@@ -101,7 +103,8 @@
             </div>
             <div>
                 <li><a class="terminos" href="#">Servicios y Términos de Licencia</a></li>
-                <li>Copyright &#169; Managed Account 2015</li>
+                <li>Todos los Derechos Reservados &#174;</li> 
+                <li>Managed Account 2015</li>
             </div>
         </div>
     </footer>
